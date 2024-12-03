@@ -17,8 +17,6 @@ WHERE pg_stat_activity.datname = 'employee_db'
 /****/
 
 
-CREATE DATABASE employee_db;
-
 -- Create two new databases --
 DROP DATABASE IF EXISTS employee_db;
 CREATE DATABASE employee_db;
